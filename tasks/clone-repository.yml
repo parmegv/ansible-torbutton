@@ -1,0 +1,5 @@
+- name: Clone git repository
+  git:
+    repo="{{ git_repo }}"
+    dest="{{ path }}"
+    version="{{ git_tag }}"

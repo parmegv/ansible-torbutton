@@ -1,0 +1,5 @@
+- name: Patch torbutton
+  command: patch -p1  {{ patch }}
+  args:
+    chdir: "{{ path }}"
+
