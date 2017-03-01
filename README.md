@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/parmegv/ansible-torbutton.svg?branch=master)](https://travis-ci.org/parmegv/ansible-torbutton)
 Role Name
 =========
 
