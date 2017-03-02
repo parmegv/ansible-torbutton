@@ -1,7 +1,7 @@
 - name: Produce XPI
   shell: ./makexpi.sh
   args:
-    chdir: "{{ path }}"
+    chdir: "{{ torbutton_path }}"
 
 - name: Replace extension in TBB
   command: mv {{ xpi_new }} {{ xpi_dest }}

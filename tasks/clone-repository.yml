@@ -1,5 +1,5 @@
 - name: Clone git repository
   git:
-    repo="{{ git_repo }}"
-    dest="{{ path }}"
-    version="{{ git_tag }}"
+    repo="{{ torbutton_git_repo }}"
+    dest="{{ torbutton_path }}"
+    version="{{ torbutton_git_tag }}"
