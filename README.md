@@ -13,9 +13,9 @@ Role Variables
 --------------
 
 	torbutton_dirpath: "~/"
-	torbutton_repo_name: "torbutton"
+	torbutton_git_repo_name: "torbutton"
 
-	torbutton_git_repo: "https://git.torproject.org/{{ repo_name }}.git"
+	torbutton_git_repo: "https://git.torproject.org/{{ torbutton_git_repo_name }}.git"
 	torbutton_git_tag: "master"
 
 	torbutton_patch: "" # Path to the patch
