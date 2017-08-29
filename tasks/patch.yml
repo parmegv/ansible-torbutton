@@ -1,5 +1,6 @@
 - name: Patch torbutton
-  command: patch -p1  {{ torbutton_patch }}
-  args:
-    chdir: "{{ torbutton_path }}"
+  patch:
+    src: "{{ torbutton_tor_patch }}"
+    basedir: "{{ torbutton_path }}"
+    strip: 1
 

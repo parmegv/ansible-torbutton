@@ -1,6 +1,6 @@
 ---
 # defaults file for ansible-torbutton
-torbutton_dirpath: "~/"
+torbutton_dirpath: "{{ ansible_env.HOME }}"
 torbutton_git_repo_name: "torbutton"
 
 torbutton_git_repo: "https://git.torproject.org/{{ torbutton_git_repo_name }}.git"

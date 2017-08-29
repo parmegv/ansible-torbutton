@@ -9,7 +9,7 @@
 
 - name: If a patch is provided, generate a new XPI and use it in the provided Tor Browser Bundle
   include: patch.yml
-  when: torbutton_patch is defined and torbutton_patched_version is defined
+  when: torbutton_tor_patch is defined and torbutton_patched_version is defined
 
 - name: Generate and install the new extension (as an XPI file)
   include: install-new-xpi.yml
